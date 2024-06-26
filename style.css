@@ -347,3 +347,422 @@ label{
 .deta h1,h3,h4{
     color: #ffffff;
 }
+@media only screen and (max-width: 600px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .maindiv {
+        background-color: aqua;
+    }
+
+    .mainform {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        height: min-content;
+        width: min-content;
+        white-space: nowrap;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navdiv {
+        background-color: #212529;
+        color: aliceblue;
+        height: 50px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    span {
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .right {
+        height: 100%;
+        align-content: center;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.54);
+        text-decoration: none;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    .photodiv {
+        height: calc(100vh - 50px); /* Adjusted height to account for the fixed navbar */
+        background-image: url(https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+        background-size: cover; /* Changed to cover for better fit */
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column; /* Adjusted to column for better stacking on small screens */
+        align-items: center;
+    }
+
+    img {
+        border-top-left-radius: 10%;
+        height: auto;
+        max-width: 90%; /* Adjusted to fit within smaller screens */
+        border-bottom-right-radius: 10%;
+    }
+
+    .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deta {
+        width: 100%;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+
+    .second h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cardmaindiv {
+        display: flex;
+        flex-direction: column; /* Stacked cards for small screens */
+        padding: 10px;
+        gap: 20px; /* Reduced gap for small screens */
+        background-color: #f8f9fa;
+    }
+
+    .card1, .card2, .card3 {
+        border: solid;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        border-color: #dfdfdf;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card1 img, .card2 img, .card3 img {
+        height: auto;
+        width: 100%;
+        max-width: 200px; /* Adjusted max width */
+    }
+
+    .card1 h1, .card2 h1, .card3 h1 {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-size: large;
+    }
+
+    .third {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+
+    .third h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .procard1, .procard2 {
+        border: solid;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        border-color: #dfdfdf;
+        background-color: #583883; /* Default color for procard1 */
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10%;
+    }
+
+    .procard2 {
+        background-color: #fe4f5b; /* Specific color for procard2 */
+    }
+
+    .procard1 img, .procard2 img {
+        height: auto;
+        width: 100%;
+        max-width: 271px;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+
+    .procard1 h1, .procard2 h1 {
+        width: 100%;
+        color: #d7d1da;
+        font-size: large;
+    }
+
+    .procards {
+        display: flex;
+        flex-direction: column; /* Stacked cards for small screens */
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        gap: 20px; /* Reduced gap for small screens */
+    }
+
+    .fourth h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    input {
+        width: 96%;
+        height: 31px;
+        border: 1px solid;
+        border-color: #ced4db;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin: 10px;
+    }
+
+    textarea {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    button {
+        width: 50%;
+        height: 33px;
+        background-color: #212529;
+        color: white;
+        cursor: pointer;
+    }
+
+    label {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #757a7d;
+        font-weight: normal;
+    }
+
+    .fourth {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+
+    .down {
+        width: 100%;
+        background-color: #212529;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        color: #767a7d;
+    }
+
+    .down i:hover {
+        color: white;
+        transition: 1s;
+    }
+
+    .down p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        padding: 10px;
+    }
+
+    .Red {
+        color: #fe4f5b;
+        margin: 0px;
+    }
+
+    .blue {
+        color: blue;
+        margin: 0px;
+    }
+
+    .voilet {
+        color: violet;
+        margin: 0px;
+    }
+
+    .Green {
+        color: green;
+        margin: 0px;
+    }
+
+    .brown {
+        color: brown;
+        margin: 0px;
+    }
+
+    .deta h1, .deta h3, .deta h4 {
+        color: #ffffff;
+    }
+}
+@media only screen and (max-width: 600px)  {
+    .photodiv {
+        height: calc(100vh - 50px); 
+        background-image: url(https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+        background-size: cover; 
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    img {
+        border-top-left-radius: 10%;
+        height: auto;
+        max-width: 90%; 
+        border-bottom-right-radius: 10%;
+    }
+
+    .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deta {
+        width: 100%;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+
+
+    
+
+    .cardmaindiv {
+        display: flex;
+        flex-direction: column; 
+        padding: 10px;
+        gap: 20px; 
+        background-color: #f8f9fa;
+    }
+
+    
+
+    
+
+    
+
+    .third {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+
+ 
+    
+
+    .procard2 {
+        background-color: #fe4f5b; 
+    }
+    .procard1 img, .procard2 img {
+        height: auto;
+        width: 100%;
+        max-width: 271px;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+
+    .procard1 h1, .procard2 h1 {
+        width: 100%;
+        color: #d7d1da;
+        font-size: large;
+    }
+
+    .procards {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        gap: 20px; /
+    }
+
+  
+
+ 
+   
+
+    input {
+        width: 96%;
+        height: 31px;
+        border: 1px solid;
+        border-color: #ced4db;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin: 10px;
+    }
+
+    textarea {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    button {
+        width: 50%;
+        height: 33px;
+        background-color: #212529;
+        color: white;
+        cursor: pointer;
+    }
+
+    label {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #757a7d;
+        font-weight: normal;
+    }
+
+    .fourth {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+}
+   
+    
