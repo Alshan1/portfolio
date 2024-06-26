@@ -10,6 +10,10 @@
     background-color: aqua;
 
 }
+.mainform{
+    display: flex;
+    justify-content: center;
+}
 h1{
     height: min-content;
     width: min-content;
@@ -115,6 +119,7 @@ a:hover{
     border-color: #dfdfdf;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .card2{
@@ -159,15 +164,18 @@ a:hover{
     width: 100%;
     
     color: rgb(0, 0, 0);
+    font-size: large;
 }
+
 .card2 img{
     height: 200px;
     width: 200px;
 }
-.card2 h2{
+.card2 h1{
     width: 100%;
     
     color: rgb(0, 0, 0);
+    font-size: large;
 }
 .card3 img{
     height: 200px;
@@ -177,6 +185,7 @@ a:hover{
     width: 100%;
     
     color: rgb(0, 0, 0);
+    font-size: large;
 }
 .third{
     
@@ -201,6 +210,7 @@ a:hover{
 .procard1 h1{
     width: 100%;
     color: #d7d1da;
+    font-size: large;
 }
  
 .procard1{
@@ -228,6 +238,7 @@ a:hover{
 .procard2 h1 {
     width: 100%;
     color: #d7d1da;
+    font-size: large;
 }
 
 .procard2{
@@ -258,16 +269,22 @@ a:hover{
     text-align: center;
 }
 table{
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: 10px;
 }
 
 input{
-    width: 95%;
+    width: 96%;
     height: 31px;
     border: 1px solid;
     border-color: #ced4db;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+textarea{
+    padding-left: 10px;
+    padding-right: 20px;
 }
 button{
     width: 50%;
@@ -284,14 +301,43 @@ label{
    
 }
 .down{
-    height: 50px;
     width: 100%;
     background-color: #212529;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #767a7d;
+    
+}
+.down i:hover{
+    color:white;
+    transition: 1s;
 }
 
 .down p{
-    color: #767a7d;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
     padding: 10px;
 }
+.Red{
+    color: #fe4f5b;
+    margin: 0px;
+}
+.blue{
+    color: blue;
+    margin: 0px;
+}
+.voilet{
+    color: violet;
+    margin: 0px;
+}
+.Green{
+    color: green;
+    margin: 0px;
+}
+.brown{
+    color: brown;
+    margin: 0px;
+}
+.icons{}
