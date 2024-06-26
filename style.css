@@ -56,7 +56,7 @@ a:hover{
 }
 .photodiv{
     height: calc(100vh);
-    background-image: url(https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-light-colors_476363-5220.jpg?w=900);
+    background-image: url(https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -64,7 +64,8 @@ a:hover{
 }
  img{
    border-top-left-radius: 10%;
-   height: 400px;
+   height: 500px;
+
    border-bottom-right-radius: 10%;
 
 } 
@@ -342,4 +343,7 @@ label{
 .brown{
     color: brown;
     margin: 0px;
+}
+.deta h1,h3,h4{
+    color: #ffffff;
 }
