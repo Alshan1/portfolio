@@ -5,7 +5,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    margin-left: auto;
+}
 .maindiv{
     background-color: aqua;
 
@@ -217,7 +220,7 @@ a:hover{
 .procard1{
     border: solid;
     width: 287px;
-    height: 465px;
+    height: 497px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -245,7 +248,7 @@ a:hover{
 .procard2{
     border: solid;
     width: 287px;
-    height: 465px;
+    height: 517px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -288,7 +291,7 @@ textarea{
     padding-left: 10px;
     padding-right: 20px;
 }
-button{
+.btnsubmit{
     width: 50%;
     height: 33px;
     background-color: #212529;
@@ -746,8 +749,8 @@ label{
     }
 
     button {
-        width: 50%;
-        height: 33px;
+        /* width: 50%; */
+        /* height: 33px; */
         background-color: #212529;
         color: white;
         cursor: pointer;
