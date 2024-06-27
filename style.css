@@ -408,19 +408,19 @@ label{
     }
 
     .photodiv {
-        height: calc(100vh - 50px); /* Adjusted height to account for the fixed navbar */
+        height: calc(100vh - 50px); 
         background-image: url(https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
-        background-size: cover; /* Changed to cover for better fit */
+        background-size: cover; 
         background-repeat: no-repeat;
         display: flex;
-        flex-direction: column; /* Adjusted to column for better stacking on small screens */
+        flex-direction: column; 
         align-items: center;
     }
 
     img {
         border-top-left-radius: 10%;
         height: auto;
-        max-width: 90%; /* Adjusted to fit within smaller screens */
+        max-width: 90%; 
         border-bottom-right-radius: 10%;
     }
 
@@ -453,9 +453,9 @@ label{
 
     .cardmaindiv {
         display: flex;
-        flex-direction: column; /* Stacked cards for small screens */
+        flex-direction: column; 
         padding: 10px;
-        gap: 20px; /* Reduced gap for small screens */
+        gap: 20px; 
         background-color: #f8f9fa;
     }
 
@@ -477,7 +477,7 @@ label{
     .card1 img, .card2 img, .card3 img {
         height: auto;
         width: 100%;
-        max-width: 200px; /* Adjusted max width */
+        max-width: 200px;
     }
 
     .card1 h1, .card2 h1, .card3 h1 {
@@ -507,13 +507,13 @@ label{
         text-align: center;
         padding: 10px;
         border-color: #dfdfdf;
-        background-color: #583883; /* Default color for procard1 */
+        background-color: #583883; 
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 10%;
     }
 
     .procard2 {
-        background-color: #fe4f5b; /* Specific color for procard2 */
+        background-color: #fe4f5b; 
     }
 
     .procard1 img, .procard2 img {
@@ -532,11 +532,11 @@ label{
 
     .procards {
         display: flex;
-        flex-direction: column; /* Stacked cards for small screens */
+        flex-direction: column; 
         justify-content: center;
         align-items: center;
         margin: 15px;
-        gap: 20px; /* Reduced gap for small screens */
+        gap: 20px; 
     }
 
     .fourth h1 {
